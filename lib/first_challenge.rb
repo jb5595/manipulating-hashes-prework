@@ -17,6 +17,7 @@ def first_challenge
 
   #your code here
   contacts.each do |person, data|
+<<<<<<< HEAD
     data.each do |attribute, value|
       
       if attribute == :favorite_icecream_flavors
@@ -26,6 +27,13 @@ def first_challenge
 
   end
 end
+=======
+    data.each do |attibute, value|
+      binding.pry
+      puts value
+    end
+  end
+>>>>>>> c5e9274442395a61e0e64153448c57b83333ed8f
 
 
   #remember to return your newly altered contacts hash!
